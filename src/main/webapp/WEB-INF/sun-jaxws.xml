@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+  <endpoint
+     name="Hello"
+     implementation="com.example.Hello"
+     url-pattern="/ws/hello"/>
+    <endpoint
+     name="GetSaldo"
+     implementation="com.example.SaldoController"
+     url-pattern="/ws/saldo"/>
+     <endpoint
+     name="getlistCokelat"
+     implementation="com.example.ListCokelatController"
+     url-pattern="/ws/listcokelat"/>
+     <endpoint
+     name="getlistBahan"
+     implementation="com.example.ListBahanController"
+     url-pattern="/ws/listbahan"/>
+     <endpoint
+     name="addNewChocolate"
+     implementation="com.example.NewChocolateController"
+     url-pattern="/ws/newchocolate"/>
+     <endpoint
+     name="changeStatus"
+     implementation="com.example.StatusController"
+     url-pattern="/ws/changestatus"/>
+     <endpoint
+     name="ubahSaldo"
+     implementation="com.example.UbahSaldoController"
+     url-pattern="/ws/ubahsaldo"/>
+</endpoints>
